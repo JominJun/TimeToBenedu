@@ -51,6 +51,6 @@ while True:
                 time.sleep(1)
         else:
             print("전송 가능한 시간이 아닙니다. 프로그램을 종료합니다", end="")
-            break
+            exit()
 
     time.sleep(60)
